@@ -27,7 +27,7 @@ ul{
 
 ul a{
     display: block;
-    font-size: 1rem;
+    font-size: 12px;
     margin: 10px 0;
     color: #dddddd;
 } 
@@ -97,4 +97,13 @@ ul a{
 .copyright{
     padding-top: 5px;
     padding-bottom: 20px;
+}
+
+.foot-panel1{
+    list-style: none;
+}
+
+.foot-panel1 li a{
+    text-decoration: none;
+    color: white;
 }
