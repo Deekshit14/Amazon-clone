@@ -5,11 +5,13 @@
     color: white;
     align-items: center;
     justify-content: space-evenly;
+    /* display: none; */
 }
 
 .panel-opts p{
-    display: inline;
-    margin: 15px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
 }
 
 .panel-opts{

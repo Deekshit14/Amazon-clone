@@ -1,10 +1,15 @@
 *{
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
     font-family: Arial;
     box-sizing: border-box;
 }
 
+header{
+    /* position: relative; */
+    position: sticky;
+    top: 0;
+}
 .navbar{
     height: 60px;
     color: white;
@@ -12,6 +17,8 @@
     display: flex;
     align-items:  center;
     justify-content: space-evenly;
+    /* position: sticky;
+    top: 0; */
 }
 
 .nav-logo{
@@ -57,7 +64,7 @@
 .nav-search{
     display:flex;
     justify-content: space-evenly;
-    width: 620px;
+    width: 500px;
     height: 40px;
     border-radius: 4px;
 }
@@ -114,4 +121,19 @@ span{
 .nav-cart{
     font-size: 0.85rem;
     font-weight: 700;
+}
+
+.menu{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
 }
